@@ -1,1 +1,0 @@
-# Atmel_Programming_Tutorial_2_Fuses_and_Using_an_External_Oscillator
