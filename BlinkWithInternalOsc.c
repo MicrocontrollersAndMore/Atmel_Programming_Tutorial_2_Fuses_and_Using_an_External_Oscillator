@@ -1,12 +1,9 @@
-// BlinkWithExternalOsc.c
+// BlinkWithInternalOsc.c
 
-// 20 HMz crystal osc with 22 pF caps on XTAL1 (pin 9) and XTAL2 (pin 10)
-// LED on PC5
+// put LED on PC5
 
-// before running this code, set the chip's fuses as shown in the video or "ATmega328P fuse settings for 20 MHz external xtal osc.png"
-
-#ifndef F_CPU						// if F_CPU was not defined in Project -> Properties
-#define F_CPU 20000000UL			// define it now as 1 GHz unsigned long
+#ifndef F_CPU					// if F_CPU was not defined in Project -> Properties
+#define F_CPU 1000000UL			// define it now as 1 GHz unsigned long
 #endif
 
 #include <avr/io.h>				// this is always included in AVR programs
