@@ -6,7 +6,7 @@
 // before running this code, set the chip's fuses as shown in the video or "ATmega328P fuse settings for 20 MHz external xtal osc.png"
 
 #ifndef F_CPU						// if F_CPU was not defined in Project -> Properties
-#define F_CPU 20000000UL			// define it now as 1 GHz unsigned long
+#define F_CPU 20000000UL			// define it now as 20 MHz unsigned long
 #endif
 
 #include <avr/io.h>				// this is always included in AVR programs
